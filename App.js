@@ -3,7 +3,7 @@ import { AppRegistry, StyleSheet, Text, View, Image, TextInput, Button, Alert } 
 
 export default class App extends React.Component {
   _onPressButton() {
-    fetch('localhost:3000/login', {
+   /* fetch('localhost:3000/login', {
   method: 'POST',
   headers: {
     Accept: 'application/json',
@@ -13,7 +13,7 @@ export default class App extends React.Component {
     username: 'yourValue',
     password: 'yourOtherValue',
       }),
-    })
+    }) */
   }
   render() {
     return (
